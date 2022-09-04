@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/features.css') }}" rel="stylesheet">
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
@@ -17,65 +18,94 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <nav aria-label="Page navigation">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="visually-hidden">Previous</span>
-                              </a>
-                            </li>
-                            <li class="page-item active"><a class="page-link" href="#"></a></li>
-                            <li class="page-item"><a class="page-link" href="#"></a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="visually-hidden">Next</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
+        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+            <section>
+                @if (Route::has('login'))
+                <nav class="navbar navbar-expand-md">
+                    <div class="container">
+                                <a class="navbar-brand" href="{{ url('/') }}">
+                                    <img src="../../assets/images/logo.svg" alt="" width="40" height="40"
+                                class="d-inline-block align-text-center">
+                                    E Lending
+                                </a>
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item ">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">contact</a>
+                                    </li>
+                                </ul>
+                                <ul class="nav justify-content-end nav-button">
+                                    @auth
+                                    @else
+                                    <li class="nav-item ">
+                                        <a href="{{ route('login') }}"><button type="button nav-link" class="btn btn-dark" >Log In</button></a>
+                                    </li>
+                                    @if (Route::has('register'))
+                                    <li class="nav-item ">
+                                        <a href="{{ route('register') }}"><button type="button nav-link" class="btn btn-dark">Sign Up</button></a>
+                                    </li>
+                                    @endif
+                                    @endauth
+                                </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6"    >
-                        <nav aria-label="Page navigation">
-                          <ul class="pagination justify-content-center">
-                            <li class="page-item disabled">
-                              <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                                <span class="visually-hidden">Previous</span>
-                              </a>
-                            </li>
-                            <li class="page-item active"><a class="page-link" href="#"></a></li>
-                            <li class="page-item"><a class="page-link" href="#"></a></li>
-                            <li class="page-item">
-                              <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                                <span class="visually-hidden">Next</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
+                </nav>
+        @endif
+    </section>
+    <section class="hero">
+        <!--
+            ::Hero Area Start::
+            ::author:: @kuyesu
+         -->
+         <div class="container mt-5 pt-5 ">
+            <div class="row pt-5">
+                <div class="col-md-6 pt-5">
+                    <div class="hero-area pt-5">
+                        <h1 class="hero-title" id="transition1">Instant Loans</h1>
+                        <p class="hero-text mb-5" id="transition2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                        </p>
+                        <button type="button" class="btn btn-dark mt-5">Get Started</button>
+                    </div>
+                <div class="col-md-6">
+                    <div class="hero-image">
+                        <img src="../../assets/images/hero-image.svg" alt="">
                     </div>
                 </div>
-            </div>
+         </div>
+    </section>
+    <section>
+        <!--
+            ::Features Area Start::
+            ::author:: @kuyesu
+         -->
+    </section>
+    <section>
+        <!--
+            ::About us Area Start::
+            ::author:: @MusanjeLawrence
+         -->
+    </section>
+    <section>
+        <!--
+            ::contact section start here::
+            ::author:: @Agaba-Ed
+         -->
+    </section>
+    <section>
+        <!--
+            ::footer section start here::
+            ::to be built:: @Agaba-Ed
+         -->
+    </section>
         </div>
     </body>
 </html>
