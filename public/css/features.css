@@ -53,9 +53,18 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     max-width: 100%;
-    max-height: 5rem;
-    box-shadow: #e6e5e5 0px 1px 5px;
+    height: 5rem;
+    /* box-shadow: #e6e5e5 0px 1px 5px; */
     z-index: 1;
+
+}
+
+.navbar-top{
+    width: 100vw;
+    height: 2.2rem;
+    background-color: #ff9800;
+    z-index: 1;
+    color: #fff;
 
 }
 
@@ -74,6 +83,17 @@ body {
     text-decoration: none;
     letter-spacing: 1px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.nav-icon{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.nav-icon:hover{
+    color: rgb(247, 245, 239);
 }
 
 .navbar-brand {
@@ -101,9 +121,7 @@ nav .nav-link:hover {
 
 
 /* bring section to front */
-section {
-    margin-bottom: 4rem;
-}
+
 
 .btn:hover {
     background-color: rgb(238, 238, 238);
@@ -126,7 +144,7 @@ section {
    left: 50px;
 }
 
-.hero{
+/* .hero{
     position: relative;
     width: 100%;
     top: -130px;
@@ -135,4 +153,45 @@ section {
     margin-top: 0;
     margin-bottom: 2rem;
     padding-top: 8rem;
+} */
+
+
+/* carousel */
+.carousel{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #f8f6f4;
+}
+.carousel-image{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.5; */
+    filter: brightness(30%)
+}
+
+.hero-area{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 350px;
+}
+
+.hero-title{
+    position: relative;
+    color: #fff;
+    text-align: left;
+    text-shadow: #838382 0px 0px 10px;
+}
+.hero-text{
+    text-align: left;
+}
+.hero-text-button {
+    text-align: left;
+    position: relative;
+    right: 170px;
 }
