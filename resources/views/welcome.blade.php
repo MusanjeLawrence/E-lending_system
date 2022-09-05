@@ -22,7 +22,7 @@
             <section>
                 <nav class="navbar-top navbar-expand-md">
                     <div class="container-fluid">
-                        <ul class="nav justify-content-start">
+                        <ul class="nav justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-icon active" aria-current="page" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -114,10 +114,10 @@
                             <div class="col-md-6 justify-content-start">
                                 <div class="hero-area justify-content-start">
                                     <h1 class="hero-title " id="transition1">Instant Loans</h1>
-                                    <p class="hero-text mb-5" id="transition2">
+                                    <p class="hero-text mb-5 " id="transition2">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
                                     </p>
-                                    <button type="button" class="btn btn-dark mt-5 hero-text-button">Get Started</button>
+                                    <button type="button" class="btn btn-dark mt-2 hero-text-button">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -150,6 +150,52 @@
             ::footer section start here::
             ::to be built:: @Agaba-Ed
          -->
+         <div class="container-fluid footer-container mt-5">
+            <div class="row nav-row">
+                <div class="col">
+                    <h4 class="text-white" id="transition1">Instant Loans</h4>
+                    <p class="mb-5 text-white" id="transition2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="text-white" id="transition1">Instant Loans</h4>
+                    <p class="mb-5 text-white" id="transition2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="text-white" id="transition1">Instant Loans</h4>
+                    <p class="mb-5 text-white" id="transition2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="text-white" id="transition1">Instant Loans</h4>
+                    <p class="mb-5 text-white" id="transition2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="text-white" id="transition1">Instant Loans</h4>
+                    <p class="mb-5 text-white" id="transition2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                    </p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">Join Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-row">
+
+            </div>
+            <div class="row end-footer">
+
+            </div>
+         </div>
     </section>
         </div>
     </body>
