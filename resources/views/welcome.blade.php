@@ -127,6 +127,7 @@
     <section>
         <div class="container-fluid footer-container pt-5 primarylightcolor">
             <div class="row footer-row mx-5">
+
                 <div class="col">
                     <h4 class="text-white" id="transition1">Instant Loans</h4>
                     <p class="mb-5 text-white" id="transition2">
@@ -157,8 +158,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
                     </p>
                     <div class="input-group mb-3">
+
                         <input type="text" class="form-control" placeholder="Email address" aria-label="Email address"
                             aria-describedby="basic-addon2">
+
                         <div class="input-group-append">
                             <span class="input-group-text" id="basic-addon2">Join Us</span>
                         </div>

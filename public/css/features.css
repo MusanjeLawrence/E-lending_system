@@ -35,6 +35,14 @@ body {
 
 .navbar {
     border-bottom: 1px solid #e6e5e5;
+
+.navbar-top{
+    width: 100vw;
+    height: 2.2rem;
+    background-color: #1f7bd0;
+    z-index: 1;
+    color: #fff;
+
 }
 
 .nav li {
@@ -47,6 +55,17 @@ body {
     color: #838382;
     letter-spacing: 1px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.nav-icon{
+    font-size: 14px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.nav-icon:hover{
+    color: rgb(247, 245, 239);
 }
 
 .navbar-brand {
@@ -67,7 +86,6 @@ nav .nav-link:hover {
     color: rgba(0, 0, 0, .8);
     text-shadow: #838382 0px 0px 10px;
 }
-
 
 
 .btn:hover {
@@ -114,14 +132,13 @@ nav .nav-link:hover {
     height: 20rem;
 
 }
-
 .text-row{
     border-bottom: 1px solid #5371b3;
     height: 6rem;
     box-shadow: #4286c5 0px 1px 0px;
 
 }
-
 .end-footer{
     height: 3rem;
 }
+
