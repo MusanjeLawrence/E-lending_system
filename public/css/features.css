@@ -35,15 +35,8 @@ body {
 
 .navbar {
     border-bottom: 1px solid #e6e5e5;
-
-.navbar-top{
-    width: 100vw;
-    height: 2.2rem;
-    background-color: #1f7bd0;
-    z-index: 1;
-    color: #fff;
-
 }
+
 
 .nav li {
     margin-right: 10px;

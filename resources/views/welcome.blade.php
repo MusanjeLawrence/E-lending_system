@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>E</title>
+    <title>E-lending</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
 </head>
 
 <body class="antialiased">
-    <nav class="navbar-top primarylightcolor">
+    <nav class="primarylightcolor pt-1">
         <div class="container-fluid">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
