@@ -2,7 +2,7 @@
 @section('content')
 <div class="row justify-content-center">
     <div class="col-md-7 col-lg-10 col-xl-8">
-        <div class="card shadow-lg o-hidden border-0 my-5 login-section">
+        <div class="card shadow-lg o-hidden border-0 my-5">
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-6 border-end">
