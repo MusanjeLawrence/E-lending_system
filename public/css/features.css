@@ -135,3 +135,10 @@ nav .nav-link:hover {
     height: 3rem;
 }
 
+
+/*dashboard*/
+
+.dashboard-nav-item{
+    padding-top: 6rem;
+}
+
