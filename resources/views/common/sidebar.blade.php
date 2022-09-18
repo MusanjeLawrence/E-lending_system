@@ -58,10 +58,17 @@
 
     <!-- Nav Item -Log out-->
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
             <img src="{{ asset('images/log-out-icon.png') }}" alt="" width="40" height="40"
                 class="d-inline-block align-text-center ">
             <span class="lead">Log out</span>
         </a>
+
+        
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
     </li>
 </ul>
