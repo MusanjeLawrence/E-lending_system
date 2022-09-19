@@ -138,6 +138,33 @@
             ::About us Area Start::
             ::author:: @MusanjeLawrence
          -->
+         <div class="section1">
+        <div class="container123">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>was incorporated in March 2018 by Uganda registration services </h3>
+                    <p>bureau and is now a home
+                        for researchers, innovatain aim is to be a major contributor to local capacity 
+                        building, enabling creation of digital ecosystem in western Uganda for the development of technology businesses leading to 
+                        increased employment </p>
+                        <div class="button123">
+                            <a href="">Read More</a>
+                        </div>
+                </div>
+                <div class="social">
+                    <a href=""><i class="fab-fa-facebook-f"></i></a>
+                    <a href=""><i class="fab-fa-twitter"></i></a>
+                    <a href=""><i class="fab-fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </div>
     </section>
     <section>
         <!--
