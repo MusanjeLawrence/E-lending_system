@@ -226,8 +226,6 @@ nav .nav-link:hover {
     height: 3rem;
 }
 
-/*about by lawrence*/
-
 .section1{
     width: 100%;
     min-height: 100vh;
@@ -282,17 +280,6 @@ nav .nav-link:hover {
     background-color: #a52a2a;
     color: #fff;
 }
-.content-section .social{
-    margin: 40px 40px;
-}
-.content-section .social i{
-    color: #a52a2a;
-    font-size: 30px;
-    padding: 0px 10px;
-}
-.content-section .social i:hover{
-    color: #3d3d3d;
-}
 /* enabling device screen flexibility on the about page*/
 @media screen and (max-width: 768px) {
     .container123{
@@ -326,9 +313,6 @@ nav .nav-link:hover {
     }
     .content-section .content .button123 a{
         padding: 9px 30px;
-    }
-    .content-section .social{
-        text-align: center;
     }
 
 }
