@@ -61,8 +61,8 @@
 
 
                             <div class="my-3 lead">
-                                <p class="primary-textcolor">Already a user? <span class="secondary-textcolor">Sign
-                                        In</span></p>
+                                <p class="primary-textcolor">Already a user? <a href="{{ route('login') }}"  class="text-decoration-none" ><span class="secondary-textcolor">Sign
+                                        In</span></a></p>
                             </div>
                         </form>
                     </div>
