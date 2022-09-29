@@ -60,8 +60,8 @@
 
 
                             <div class="my-3 lead">
-                                <p class="primary-textcolor">New user <span class="secondary-textcolor">Create
-                                        account</span></p>
+                                <p class="primary-textcolor">New user <a href="{{ route('register') }}" class="text-decoration-none"><span class="secondary-textcolor">Create
+                                        account</span></a></p>
                             </div>
                         </form>
                     </div>

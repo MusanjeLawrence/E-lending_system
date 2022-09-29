@@ -24,3 +24,20 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('applyforloan/{id}', [App\Http\Controllers\LoanController::class, 'applyforloan'])->name('applyforloan');
+
+                          
+Route::post('applyforloan/{id}', [App\Http\Controllers\LoanController::class, 'applyforloan'])->name('applyforloan');
+
+
+Route::get('loanprofile/{id}', [App\Http\Controllers\LoanController::class, 'loanprofile'])->name('loanprofile');
+
+Route::get('settlebalance/{id}', [App\Http\Controllers\LoanController::class, 'settlebalance'])->name('settlebalance');
+
+Route::post('settlebalance/{id}', [App\Http\Controllers\LoanController::class, 'settlebalance'])->name('settlebalance');
+
+Route::get('loanhistory/{id}', [App\Http\Controllers\LoanController::class, 'loanhistory'])->name('loanhistory');
+
+ 
