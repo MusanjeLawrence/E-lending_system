@@ -11,7 +11,7 @@ class LoanApplication extends Model
 
     
     protected $fillable = [
-        'user_id',
+        'client_id',
         'loan_amount',
         'payment_mode_id',
         'mobile_money_no',

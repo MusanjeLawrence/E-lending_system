@@ -231,3 +231,11 @@ nav .nav-link:hover {
 .dashboard-nav-item{
     padding-top: 6rem;
 }
+
+
+/*loan-profile-table*/
+.loan-profile-table{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}

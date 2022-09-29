@@ -15,6 +15,10 @@ class CreateTransactionHistoriesTable extends Migration
     {
         Schema::create('transaction_histories', function (Blueprint $table) {
             $table->id();
+            $table->string('transaction_id');
+            $table->string('message');
+            $table->string('status_code');
+            $table->string('payment_mode_id');
             $table->timestamps();
         });
     }

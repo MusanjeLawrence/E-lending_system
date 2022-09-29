@@ -14,7 +14,13 @@ class CreateClientAttachmentsTable extends Migration
     public function up()
     {
         Schema::create('client_attachments', function (Blueprint $table) {
-            $table->id();
+            $table->id('client_attachment_id');
+            $table->integer('client_id')->unsigned();
+            $table->string('document_type_id');
+            $table->string('attachment_name');
+            $table->timestamp('created_dt');
+            $table->foreign('client_id')->references('client_id')->on('client_details')
+            ->onDelete('cascade');
             $table->timestamps();
         });
     }

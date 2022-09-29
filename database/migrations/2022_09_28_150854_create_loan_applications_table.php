@@ -15,6 +15,16 @@ class CreateLoanApplicationsTable extends Migration
     {
         Schema::create('loan_applications', function (Blueprint $table) {
             $table->id();
+            $table->string('loan_type');
+            $table->string('client_id');
+            $table->string('no_of_months');
+            $table->string('loan_amount');
+            $table->string('payment_mode');
+            $table->string('mobile_money_number');
+            $table->string('mobile_monney_name');
+            $table->string('loan_number');
+            $table->integer('approved');
+            $table->string('due_date');
             $table->timestamps();
         });
     }

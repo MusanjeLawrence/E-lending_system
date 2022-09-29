@@ -9,9 +9,7 @@ class ClientDetail extends Model
 {
     use HasFactory;
 
-    public function user(){
-        return $this->hasOne(User::class, 'client_id','client_id');
-    }
+   
 
     public function client_attachments(){
         return $this->hasMany(ClientAttachment::class, 'client_id','client_id');

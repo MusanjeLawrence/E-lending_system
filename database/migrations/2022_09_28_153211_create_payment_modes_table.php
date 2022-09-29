@@ -14,8 +14,8 @@ class CreatePaymentModesTable extends Migration
     public function up()
     {
         Schema::create('payment_modes', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('payment_mode_id');
+            $table->timestamp('created_dt');
         });
     }
 
