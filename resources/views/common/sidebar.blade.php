@@ -1,4 +1,4 @@
-<ul class="navbar-nav sidebar accordion border-end px-4" id="accordionSidebar ">
+<ul class="navbar-nav  border-end px-4 primarycolor  m-0 vh-100" id="accordionSidebar ">
 
 
     <!-- Nav Item - Dashboard -->
