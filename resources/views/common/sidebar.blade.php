@@ -1,4 +1,4 @@
-<ul class="navbar-nav sidebar accordion border-end px-4" id="accordionSidebar ">
+<ul class="navbar-nav  border-end px-4 primarycolor  m-0 vh-100" id="accordionSidebar ">
 
 
     <!-- Nav Item - Dashboard -->
@@ -17,7 +17,7 @@
 
     <!-- Nav Item-Loan Profile-->
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('loanprofile',encrypt(Auth::user()->id))}})}}">
             <img src="{{ asset('images/loan-profile-icon.png') }}" alt="" width="40" height="40"
                 class="d-inline-block align-text-center ">
             <span class="lead">Loan Profile</span>
@@ -26,7 +26,7 @@
 
     <!-- Nav Item-Apply for Loan-->
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('applyforloan',encrypt(Auth::user()->id))}})}}">
             <img src="{{ asset('images/apply-for-loan-icon.png') }}" alt="" width="40" height="40"
                 class="d-inline-block align-text-center ">
             <span class="lead">Apply for Loan</span>
@@ -35,7 +35,7 @@
 
     <!-- Nav Item -Settle Balance-->
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{route('settlebalance',encrypt(Auth::user()->id))}})}}">
             <img src="{{ asset('images/settle-balance-icon.png') }}" alt="" width="40" height="40"
                 class="d-inline-block align-text-center ">
             <span class="lead">Settle Balance</span>
@@ -49,7 +49,7 @@
 
     <!-- Nav Item -Payment History-->
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('loanhistory',encrypt(Auth::user()->id))}}) }}">
             <img src="{{ asset('images/payment-history-icon.png') }}" alt="" width="40" height="40"
                 class="d-inline-block align-text-center ">
             <span class="lead">Payment History</span>
