@@ -22,7 +22,12 @@ class User extends Authenticatable
     protected $fillable = [
         'email',
         'password',
+        'id',
     ];
+
+    public function client_detail(){
+        return $this->hasOne(ClientDetail::class, 'user_id','id');
+    }
 
     /**
      * The attributes that should be hidden for serialization.
