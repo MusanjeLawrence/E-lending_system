@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>E-lending</title>
+    <title>E-lending | Welcome</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
                             <path
                                 d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
                         </svg>
-                        +1 (123) 456 7890
+                        +256 (700) 456 7890
                     </a>
                 </li>
                 <li class="nav-item">
@@ -62,7 +62,7 @@
                             <path
                                 d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z" />
                         </svg>
-                        email@gmail.com
+                        info.e-lending@gmail.com
                     </a>
                 </li>
             </ul>
@@ -84,13 +84,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#services">Product</a>
                     </li>
                     <li class="nav-item ms-4">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item ms-4 me-4">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
 
@@ -128,9 +128,44 @@
         <div class="container-fluid footer-container pt-5 primarylightcolor">
             <div class="row footer-row mx-5">
 
-<!-- this is the about section of the landing site-->
+
     </section>
-    <section>
+    <!-- this is the product page of the landing site -->
+
+       <!-- services section -->
+       <section id="services">
+        <div class="title-text">
+          <h1>Our Products</h1>
+        </div>
+        <div class="service-box">
+          <div class="single-service">
+          <img src="{{ asset('images/image1.jpg') }}">
+            <!-- to enable words float on hovering on the images-->
+            <div class="overlay"></div>
+            <div class="service-desc">
+              <h3>Quick Loans</h3>
+              <hr>
+              <p>We give quick loans to our clients at affordable interest rates
+                and allow payments in installments
+              </p>
+            </div>
+          </div>
+          <div class="single-service">
+          <img src="{{ asset('images/image1.jpg') }}">
+            <!-- to enable words float on hovering on the images-->
+            <div class="overlay"></div>
+            <div class="service-desc">
+              <h3>Business Loans</h3>
+              <hr>
+              <p>We give you a chance to grow your business by providing business loans
+                which you can pay at any rates than moving to banks 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- this is the about section of the landing site-->
+    <section id="about">
         <!--
             ::About us Area Start::
             ::author:: @MusanjeLawrence
@@ -142,87 +177,165 @@
                     <h1>About Us</h1>
                 </div>
                 <div class="content">
-                    <h3>was incorporated in March 2018 by Uganda registration services </h3>
-                    <p>bureau and is now a home
-                        for researchers, innovatain aim is to be a major contributor to local capacity 
-                        building, enabling creation of digital ecosystem in western Uganda for the development of technology businesses leading to 
-                        increased employment </p>
+                    <h3>E-lending was incorporated in December 2021 by Uganda registration services </h3>
+                    <p>It is now a quick solution to business problems. for investors, researchers,
+                        and all individuals that need financial assistance other than goin directly to the bank
+                        We pledge to contribute to the local investments, long and short term loans to 
+                        our clients</p>
                         <div class="button123">
                             <a href="">Read More</a>
                         </div>
                 </div>
-                <div class="social">
-                    <a href=""><i class="fab-fa-facebook-f"></i></a>
-                    <a href=""><i class="fab-fa-twitter"></i></a>
-                    <a href=""><i class="fab-fa-instagram"></i></a>
-                </div>
             </div>
             <div class="image-section">
-                <img src="images/about.jpg">
+                <img src="{{ asset('images/image1.jpg') }}">
             </div>
         </div>
     </div>
     </section>
-    <section>
+    <section id="contact">
         <!--
             ::contact section start here::
-            ::author:: @Agaba-Ed
+            ::author:: @MusanjeLawrence
          -->
+         <div class="reach">
+         <div class="container1234">
+            <div class="containinfo">
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="" alt=""></span>
+                            <span><i class="fa fa-map-marker"></i>Kashanyarazi road <br>
+                            Mbarara, Uganda <br>
+                        p.o.box 1111</span>
+                        </li>
+                        <li>
+                            <span><img src="" alt=""></span>
+                            <span><i class="fa fa-paper-plane"></i>info.e-lending@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><img src="" alt=""></span>
+                            <span><i class="fa fa-phone"></i>phone: 0702170980 </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                      </div>
+            </div>
+            <div class="contactForm">
+                <h2>Send a Message</h2>
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>First Name</span>
+                    </div>
+    
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Last Name</span>
+                    </div>
+    
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Email Address</span>
+                    </div>
+    
+                    <div class="inputBox w50">
+                        <input type="text" name="" required>
+                        <span>Mobile Number</span>
+                    </div>
+    
+                    <div class="inputBox w100">
+                        <textarea name="" required></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="submit" value="Send" required>
+                    </div>
+                </div>
+            </div>
+        </div>
+         </div>
     </section>
     <section>
         <!--
             ::footer section start here::
-            ::to be built:: @Agaba-Ed
+            ::to be built:: @MusanjeLawrence
          -->
-         <div class="container-fluid footer-container mt-5">
-            <div class="row nav-row">
-                <div class="col">
-                    <h4 class="text-white" id="transition1">Instant Loans</h4>
-                    <p class="mb-5 text-white" id="transition2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="text-white" id="transition1">Instant Loans</h4>
-                    <p class="mb-5 text-white" id="transition2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="text-white" id="transition1">Instant Loans</h4>
-                    <p class="mb-5 text-white" id="transition2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="text-white" id="transition1">Instant Loans</h4>
-                    <p class="mb-5 text-white" id="transition2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="text-white" id="transition1">Instant Loans</h4>
-                    <p class="mb-5 text-white" id="transition2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                    </p>
-                    <div class="input-group mb-3">
+         
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+			<div class="row1">
+				<div class="footer-col2">
+					<h4>E-lending</h4>
+					<ul>
+						<li><a href="#">E-lending is an online loaning system that provides loans to 
+                            clients which allows them to develop themselves and gives them fair interest
+                            rates.</a></li>
+					</ul>
+				</div>
+				<div class="footer-col2">
+					<h4>Quick loans</h4>
+					<ul>
+						<li><a href="#">loan application</a></li>
+						<li><a href="#">loan inquiry</a></li>
+						<li><a href="#">mortgage information</a></li>
+						<li><a href="#">more information</a></li>
+					</ul>
+				</div>
+				<div class="footer-col2">
+					<h4>Business Loans</h4>
+					<ul>
+                        <li><a href="#">loan application</a></li>
+						<li><a href="#">loan inquiry</a></li>
+						<li><a href="#">mortgage information</a></li>
+						<li><a href="#">more information</a></li>
+					</ul>
+				</div>
+				<div class="footer-col2">
+					<h4>Reach us...</h4>
+					<ul>
+						<li><a class ="call" href="mailto:musanjelawrence6@gmail.com">info.e-lending@gmail.com</a></li>
+						<li><a href="#">facebook</a></li>
+						<li><a href="#">twitter</a></li>
+						<li> <a class="call"href="tel:+256 708 234184">Call Now +256 702-170-980</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+        <!-- Scroll-up button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-                        <input type="text" class="form-control" placeholder="Email address" aria-label="Email address"
-                            aria-describedby="basic-addon2">
-
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="basic-addon2">Join Us</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-row">
-
-            </div>
-            <div class="row end-footer primarycolor">
-
-            </div>
-        </div>
+		<div class="copyright1">
+        
+        <p>All Rights Reserved. &copy; 2022 <br>E-lending Limited</p>
+      </div>
+	</footer>
+    </section>
 </body>
+<script>
+ mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>
